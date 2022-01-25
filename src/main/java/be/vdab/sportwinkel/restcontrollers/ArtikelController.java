@@ -5,8 +5,6 @@ import be.vdab.sportwinkel.services.ArtikelService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.math.BigDecimal;
-
 @RestController
 @RequestMapping("/artikels")
 class ArtikelController {
